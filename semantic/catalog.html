@@ -6,30 +6,31 @@
     <title>Каталог продукции</title>
   </head>
   <body>
-    <div>
-      <a href="/">Главная страница</a>
-      <a href="/catalog.html">Каталог товаров</a>
-      <a href="/about.html">О нас</a>
-      <a href="/contacts.html">Контакты</a>
-    </div>
-    <div>
+    <nav>
+      <a href="/semantic/">Главная страница</a>
+      <a href="/semantic/catalog.html">Каталог товаров</a>
+      <a href="/semantic/about.html">О нас</a>
+      <a href="/semantic/contacts.html">Контакты</a>
+    </nav>
+    <header>
       <h1>Каталог продукции</h1>
-      <div>
-        <p>Цена от</p>
-        <input type="text" />
-        <p>Цена до</p>
-        <input type="text" />
-        <button type="button">Применить</button>
-      </div>
-      <br />
-      <div>
-        <button type="button">Подушки</button><button>Одеяла</button
-        ><button type="button">Матрасы</button
-        ><button type="button">Товары по акции</button>
-      </div>
-    </div>
+    </header>
+    <form>
+      <p>Цена от</p>
+      <input type="text" />
+      <p>Цена до</p>
+      <input type="text" />
+      <button type="button">Применить</button>
+    </form>
+    <br />
+    <form>
+      <button type="button">Подушки</button><button>Одеяла</button
+      ><button type="button">Матрасы</button
+      ><button type="button">Товары по акции</button>
+    </form>
+
     <div><h1>Подушки</h1></div>
-    <div>
+    <article>
       <h3>Подушка</h3>
       <p>Категория: Подушки</p>
       <p>Цена: 700</p>
@@ -39,9 +40,9 @@
       <p>Категория: Подушки</p>
       <p>Цена: 1000</p>
       <img src="no.jpg" alt="" width="200px" height="200px" />
-    </div>
+    </article>
     <div><h1>Одеяла</h1></div>
-    <div>
+    <article>
       <h3>Одеяло</h3>
       <p>Категория: Одеяла</p>
       <p>Цена: 1500</p>
@@ -56,14 +57,17 @@
       <p>Категория: Одеяла</p>
       <p>Цена: 5000</p>
       <img src="od.jpg" alt="" width="200px" height="200px" />
-    </div>
+    </article>
     <div><h1>Матрасы</h1></div>
-    <div>
+    <article>
       <h3>Матрас</h3>
       <p>Категория: Матрасы</p>
       <p>Цена: 10000</p>
       <img src="mat.jpg" alt="" width="200px" height="200px" />
-    </div>
+    </article>
     <div><h1>Товары по акции</h1></div>
+    <footer>
+      <p>ЗдравоСон 2023</p>
+    </footer>
   </body>
 </html>
